@@ -106,7 +106,7 @@ p{
     transition: .5s ease-in;
 }
 .nav-brand {
-    background: green;
+    background: white;
     font-size: 1.6rem;
     padding: 1.6rem 0; 
     font-family: var(--Monsterrat-bold) ;
@@ -418,7 +418,7 @@ main .post-content .post-btn {
 main .news-letter .news-form .new-form-btn {
     border-radius: 0;
     background: var(--water-sky);
-    padding:.7rem;
+    padding:.7rem;x
 }
 .popular-tag .tags {
     width:50%
