@@ -419,7 +419,6 @@ main .news-letter .news-form .new-form-btn {
     border-radius: 0;
     background: var(--water-sky);
     padding:.7rem;
-    font-size: .8rem;
 }
 .popular-tag .tags {
     width:50%
