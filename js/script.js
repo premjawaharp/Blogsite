@@ -47,3 +47,9 @@ $(document).ready(function(){
         },3000)
     })
 })
+
+// AOS instance
+
+$(document).ready(function (){
+    AOS.init();
+});

@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.css">
 
+    <!-- AOS Animate Carousel style -->
+    <link rel="stylesheet" href="css/aos.css">
+
     <!--Custom style-->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -60,7 +63,7 @@
     <main>
         <!---- Site title ---->
         <section class="site-title">
-            <div class="site-background">
+            <div class="site-background" data-aos="fade-up">
                 <h3>Tours & Travels</h3>
                 <h1>Amazing Place on Earth</h1>
                 <button class="btn">Explore</button>
@@ -71,7 +74,7 @@
         <section>
             <div class="blog">
                 <div class="container">
-                    <div class="owl-carousel owl-theme blogpost">
+                    <div class="owl-carousel owl-theme blogpost" data-aos="zoom-in">
                         <div class="blog-content">
                             <img src="./assets/Blog-post/post-1.jpg" alt="post1">
                             <div class="blog-title">
@@ -103,8 +106,8 @@
 
                     </div>
                     <div class="owl-navigation">
-                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
-                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left" data-aos="fade-up-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right" data-aos="fade-up-right"></i></span>
                     </div>
                 </div>
             </div>
@@ -115,8 +118,8 @@
 
         <section class="blog-container container">
             <div class="site-content">
-                <div class="posts">
-                    <div class="post-content">
+                <div class="posts" >
+                    <div class="post-content" data-aos="zoom-in">
                         <div class="post-image">
                             <div>
                                 <img  src="./assets/Blog-post/blog1.png" class="img" alt="blog1">
@@ -138,7 +141,7 @@
                         
                     </div>
                     <hr>
-                    <div class="post-content">
+                    <div class="post-content" data-aos="zoom-out">
                         <div class="post-image">
                             <div>
                                 <img  src="./assets/Blog-post/blog2.png" class="img" alt="blog">
@@ -159,7 +162,7 @@
                         </a>
                     </div>
                     <hr>
-                    <div class="post-content">
+                    <div class="post-content" data-aos="fade-right">
                         <div class="post-image">
                             <div>
                                 <img  src="./assets/Blog-post/blog3.png" class="img" alt="blog3">
@@ -180,7 +183,7 @@
                         </a>
                     </div>
                     <hr>
-                    <div class="post-content">
+                    <div class="post-content" data-aos="flip-down">
                         <div class="post-image">
                             <div>
                                 <img  src="./assets/Blog-post/blog4.png" class="img" alt="blog3">
@@ -208,32 +211,32 @@
                     </div>
                 </div>
                 <aside class="sidebar">
-                    <div class="category">
+                    <div class="category" >
                         <h3>Category</h3>
                         <ul class="category-list">
-                            <li class="list-items">
+                            <li class="list-items" data-aos="fade-left">
                                 <a href="#">Software</a>
                                 <span>(05)</span>
                             </li>
-                            <li class="list-items">
+                            <li class="list-items" data-aos="fade-left">
                                 <a href="#">Technology</a>
                                 <span>(03)</span>
                             </li>
-                            <li class="list-items">
+                            <li class="list-items" data-aos="fade-left">
                                 <a href="#">Lifestyle</a>
                                 <span>(02)</span>
                             </li>
-                            <li class="list-items">
+                            <li class="list-items" data-aos="fade-left">
                                 <a href="#">Shopping</a>
                                 <span>(06)</span>
                             </li>
-                            <li class="list-items">
+                            <li class="list-items" data-aos="fade-left">
                                 <a href="#">Food</a>
                                 <span>(04)</span>
                             </li>
                         </ul>
                     </div>
-                    <div class="popular-post">
+                    <div class="popular-post" data-aos="fade-left">
                         <h3>Popular Posts</h3>
                         <div class="post-content">
                             <div class="post-image">
@@ -284,7 +287,7 @@
                         </div>
                         <div class="popular-tag">
                             <h3>Popular Tags</h3>
-                            <div class="tags flex-row">
+                            <div class="tags flex-row" data-aos="zoom-in">
                                 <span class="tag">Software</span>
                                 <span class="tag">Technology</span>
                                 <span class="tag">Travel</span>
@@ -365,6 +368,8 @@
     <script src="js/owl.carousel.min.js"></script>
     <!-- Custom javascript -->
     <script src="js/script.js"></script>
+    <!-- AOS Animate Carousel JS -->
+    <script src="js/aos.js"></script>
     
     
 
