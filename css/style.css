@@ -241,7 +241,7 @@ main .blog-content .btn{
     background: var(--rare-wind);
     margin: .5rem;
     font-size: 1rem;
-    width: 50%;
+    /* width: 50%; */
 }
 
 section .container .owl-nav{
@@ -570,21 +570,24 @@ main .site-content .post-content > .post-image .post-info{
         
     }
 } 
-@media only screen and (max-width: 634px){
+@media only screen and (max-width: 750px){
     
     main .site-content .post-content > .post-image .post-info{
-            /* left:0rem !important;
-            bottom:0rem !important; */
-            border-radius: 0 !important;
-            /* font-size: 2vw; */
-            width:50% !important;
-            height:5% !important;
+            border-radius: 0 ;
+            width:50% ;
+            height:5% ;
         }
         .post-image img{
             width:100% !important;
         }
         .post-title p{
-            width: 100%;
+            width: 100% ;
+        }
+        .post-title a{
+            width: 100% ;
+        }
+        .post-title h1{
+            font-size: 1.5rem;
         }
         .move-up{
             padding-top: 2rem !important;
@@ -593,18 +596,33 @@ main .site-content .post-content > .post-image .post-info{
         .footer .news-letter{
             padding-left: 0rem !important;
         }
-    } 
-@media only screen and (max-width: 320px){
+        main .site-content .post-content > .post-image .post-info{
+            border-radius: 0 !important;
+            font-size: 2vw;
+            width:50%;
+            height:7%
+        }
+        main .blog-content .btn{
+            margin:.5rem;
+            font-size: 1rem;
+        }
+        .news-letter .news-form input{
+            width: 95%;
+        }
+    }  
+
+
+ @media only screen and (max-width: 200px){
     
     main .site-content .post-content > .post-image .post-info{
-            left:0rem !important;
-            bottom:.3rem !important;
+            /* left:0rem !important;
+            bottom:.3rem !important; */
             border-radius: 0 !important;
             font-size: 2vw;
             width:62.5%;
             height:10%
         }
-    }
+    } 
 
 @media only screen and (max-height: 750px){
     main .blog-container{
