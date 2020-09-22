@@ -127,7 +127,7 @@ p{
 .nav .toggle-collapse .toggle-icons{
     display: flex;
     justify-content: flex-end;
-    padding: 1.7rem 0;
+    padding: 2rem
 }
 .nav .toggle-collapse .toggle-icons i{
     font-size: 1.4rem;
@@ -609,6 +609,7 @@ main .site-content .post-content > .post-image .post-info{
         .news-letter .news-form input{
             width: 95%;
         }
+        
     }  
 
 
@@ -628,6 +629,7 @@ main .site-content .post-content > .post-image .post-info{
     main .blog-container{
         margin-top: 30vh !important;
     }
+
 }
 /* viewoprt less than or equal to 750px */
 @media only screen and (max-width: 750px){
@@ -637,6 +639,7 @@ main .site-content .post-content > .post-image .post-info{
     
     .nav .toggle-collapse{
         display: initial;
+        
     }
     main .site-content{
         grid-template-columns: 100%;
