@@ -106,6 +106,7 @@ p{
     transition: .5s ease-in;
 }
 .nav-brand {
+    background: red;
     font-size: 1.6rem;
     padding: 1.6rem 0; 
     font-family: var(--Monsterrat-bold) ;
@@ -593,7 +594,7 @@ main .site-content .post-content > .post-image .post-info{
         }
     }
 
-@media only screen and (max-height: 620px){
+@media only screen and (max-height: 750px){
     main .blog-container{
         margin-top: 30vh !important;
     }
