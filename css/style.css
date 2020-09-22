@@ -591,8 +591,11 @@ main .site-content .post-content > .post-image .post-info{
             width:62.5%;
             height:10%
         }
-    }
+    main .blog-container{
+        margin-top: 15vh;
 
+    }
+    }
 
 
 /* viewoprt less than or equal to 750px */
