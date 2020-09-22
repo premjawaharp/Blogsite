@@ -101,7 +101,7 @@ p{
    background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 8vh;
+    min-height: 12vh;
     overflow: hidden;
     transition: .5s ease-in;
 }
